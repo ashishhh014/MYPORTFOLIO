@@ -1,0 +1,199 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: monospace;
+}
+
+.hero{
+	position: relative;
+	
+	height: 100vh;
+	background: white;
+}
+nav{
+	background-color: #638889;
+	display: flex;
+	width:84%;
+	margin: auto;
+	padding: 20px 0;
+	align-items: center;
+    width: 100%;
+	justify-content: space-between;
+}
+nav ul li{
+	display:inline-block;
+	list-style:none;
+	margin:10px 20px;
+}
+nav ul li a{
+	text-decoration:none;
+	color: black;
+	font-weight:bold;
+}
+nav ul li a:hover{
+	color:blue;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ac601d;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+#hireme:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+};
+
+#hireme:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+};
+
+.btn:hover{
+    background-color: #1e40af;
+}
+.detel
+{
+	margin-left: 8%;
+	margin-top: 13%;
+}
+.detel h1{
+	font-size:50px;
+	color: orange;
+	margin-bottom: 20px;
+}
+
+span{
+	color:orange:
+}
+.detel p{
+	color:black;
+	line-height:22px;
+}
+.detel a{
+	background: black;
+	padding: 10px 18px;
+	text-decoration:none;
+	font-weight:bold;
+	color: white;
+	display: inline-block;
+	margin: 30px 0;
+	border-radius: 5px;
+}
+.detel a:hover{
+	color:green;
+}
+
+.images{
+	width: 45%;
+	height: 80%;
+	position: absolute;
+	bottom: 0;
+	right: 100px;
+}
+
+.images img{
+	height: 100%;
+	position: absolute;
+	left: 70%;
+	bottom: 0;
+	top:50px;
+	transform: translate(-50%);
+	transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+	bottom:45px;
+}
+
+.images:hover .boy{
+	left:45%;
+}
+
+.list a{
+	background: black;
+	padding: 10px 18px;
+	text-decoration:none;
+	font-weight:bold;
+	color: white;
+	display: inline-block;
+	margin: 30px 0;
+	border-radius: 5px;
+}
+	
+	
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+	width: 100%;
+	
+    padding: 5rem 2rem;
+}
+
+
+header{
+    position: relative;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+section{
+	font-family: monospace;
+	background-color: rgb(205, 171, 104);
+}
+
+section .header{
+    margin-bottom: 1rem;
+    color: black;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+.About{
+    color: black;
+    margin-top: 4rem;
+}
+.About .para1{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.About .para1 p{
+    margin-right: 20px;
+}
+
+.About .para1 img{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.About .para2{
+    display: flex;
+    text-align: right;
+}
+
+.About .para2 img{
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.contact{
+	border:2px;
+	border-color: black;
+}
+
+form{
+	position:left;
+	margin-left:4%;
+}
